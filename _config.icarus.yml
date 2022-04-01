@@ -270,14 +270,14 @@ widgets:
     # Recommendation links widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: links
+#        position: left
+#        type: links
         # Names and URLs of the sites
-        links:
-            Hexo: https://hexo.io
-            Bulma: https://bulma.io
+#        links:
+#            Hexo: https://hexo.io
+#            Bulma: https://bulma.io
     # Categories widget configurations
-    -
+#    -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: categories
@@ -289,42 +289,42 @@ widgets:
     # Archives widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: archives
+#        position: left
+#        type: archives
     # Tags widget configurations
-    -
+#    -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
+#    -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+#        position: left
+#        type: subscribe_email
         # Hint text under the email input
-        description: 
+#        description: 
         # Feedburner ID
-        feedburner_id: ''
+#        feedburner_id: ''
     # Google AdSense unit configurations
-    -
+#    -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
+#        position: left
+#        type: adsense
         # AdSense client ID
-        client_id: ''
+#        client_id: ''
         # AdSense AD unit ID
-        slot_id: ''
+#        slot_id: ''
     # Follow.it email subscription widget configurations
-    -
+#    -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: followit
+#        position: left
+#        type: followit
         # Hint text under the email input
-        description: 
+#        description: 
         # Subscription form action URL
-        action_url: ''
+#        action_url: ''
         # Feed claiming verification code
-        verification_code: ''
+#        verification_code: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
