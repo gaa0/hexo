@@ -130,31 +130,31 @@ footer:
 #            icon: fab fa-github
 #            url: https://github.com/ppoffice/hexo-theme-icarus
 # Article related configurations
-article:
+#article:
     # Code highlight settings
-    highlight:
+#    highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+#        theme: atom-one-light
         # Show copy code button
-        clipboard: true
+#        clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
-        fold: unfolded
+#        fold: unfolded
     # Whether to show estimated article reading time
-    readtime: true
+#    readtime: true
     # Whether to show updated time. For "auto", shows article update time only when page.updated is set and it is different from page.date
-    update_time: true
+#    update_time: true
     # Article licensing block
-    licenses:
-        Creative Commons:
-            icon: fab fa-creative-commons
-            url: https://creativecommons.org/
-        Attribution:
-            icon: fab fa-creative-commons-by
-            url: https://creativecommons.org/licenses/by/4.0/
-        Noncommercial:
-            icon: fab fa-creative-commons-nc
-            url: https://creativecommons.org/licenses/by-nc/4.0/
+#    licenses:
+#        Creative Commons:
+#            icon: fab fa-creative-commons
+#            url: https://creativecommons.org/
+#        Attribution:
+#            icon: fab fa-creative-commons-by
+#            url: https://creativecommons.org/licenses/by/4.0/
+#        Noncommercial:
+#            icon: fab fa-creative-commons-nc
+#            url: https://creativecommons.org/licenses/by-nc/4.0/
 # Search plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Search/
 search:
@@ -162,9 +162,15 @@ search:
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
 comment:
-    type: disqus
+#    type: disqus
     # Disqus shortname
-    shortname: ''
+#    shortname: ''
+    type: utterances
+    repo: gaa0/blog-comments
+    issue_term: pathname
+    label: comments
+    theme: github-light
+    crossorigin: anonymous
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
 #donates:
@@ -212,7 +218,7 @@ sidebar:
     # Left sidebar configurations
     left:
         # Whether the sidebar sticks to the top when page scrolls
-        sticky: false
+        sticky: true
     # Right sidebar configurations
     right:
         # Whether the sidebar sticks to the top when page scrolls
@@ -221,6 +227,9 @@ sidebar:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     # Profile widget configurations
+    -
+        position: left
+        type: toc
     -
         # Where should the widget be placed, left sidebar or right sidebar
         position: left
@@ -259,8 +268,8 @@ widgets:
     # Table of contents widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: toc
+#        position: left
+#        type: toc
         # Whether to show the index of each heading
         index: true
         # Whether to collapse sub-headings when they are out-of-view
@@ -344,7 +353,7 @@ plugins:
         tracking_id: 
     # BuSuanZi site/page view counter
     # https://busuanzi.ibruce.info
-    busuanzi: false
+    busuanzi: true
     # CNZZ statistics
     # https://www.umeng.com/web
     cnzz:
